@@ -380,7 +380,8 @@ button {
 
 .banner_main .text-bg a {
     width: 191px;
-    background: #fcfcfc;
+    
+    background-image: linear-gradient(to bottom, #bc883d, #f5e47b, #bc883d);
     padding: 9px 0px;
     color: #000;
     font-size: 17px;
@@ -393,7 +394,7 @@ button {
 }
 
 .banner_main .text-bg a:hover {
-    background-image: linear-gradient(to bottom, #bc883d, #f5e47b, #bc883d);
+ 
     color: #000;
     transition: all .4s ease-in;
     border-radius: 20px;
@@ -449,18 +450,7 @@ button {
     margin-bottom: 30px;
 }
 
-.casino .game {
-    box-shadow: #000 0px 0px 9px -2px;
-    margin-top: -48px !important;
-    background: #fff;
-    max-width: 200px;
-    width: 100%;
-    margin: 0 auto;
-    border: #cca24f solid 4px;
-    padding: 8px;
-    z-index: 999;
-    position: relative;
-}
+
 
 .casino .game h3 {
     font-size: 20px;
@@ -1032,3 +1022,208 @@ a.article:hover {
     color: #fff !important;
 }
 
+/* custom button css */
+
+  .golden-btn + .golden-btn { margin-top: 1em; } 
+  .golden-btn {
+    display: inline-block;
+    outline: none;
+    font-family: inherit;
+    font-size: 1em;
+    box-sizing: border-box;
+    border: none;
+    border-radius: .3em;
+    height: 2.75em;
+    line-height: 2.5em;
+    text-transform: uppercase;
+    padding: 0 1em;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(110,80,20,.4),
+                inset 0 -2px 5px 1px rgba(139,66,8,1),
+                inset 0 -1px 1px 3px rgba(250,227,133,1);
+    background-image: linear-gradient(160deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07);
+    border: 1px solid #a55d07;
+    color: rgb(120,50,5);
+    text-shadow: 0 2px 2px rgba(250, 227, 133, 1);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    background-size: 100% 100%;
+    background-position:center;
+  }
+  .golden-btn:focus,
+  .golden-btn:hover {
+    background-size: 150% 150%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23),
+                  inset 0 -2px 5px 1px #b17d10,
+                  inset 0 -1px 1px 3px rgba(250,227,133,1);
+    border: 1px solid rgba(165,93,7,.6);
+    color: rgba(120,50,5,.8);
+  }
+  .golden-btn:active {
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(110,80,20,.4),
+                inset 0 -2px 5px 1px #b17d10,
+                  inset 0 -1px 1px 3px rgba(250,227,133,1);
+  }
+
+
+  /* card design */
+  /* General Styling for Profile Container */
+.profile-container {
+    position: relative;
+    top: 31%;
+    left: 77%;
+    max-width: 279px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* Glassmorphism Effect */
+    background: rgba(255, 255, 255, 0.2); /* Transparent white */
+    backdrop-filter: blur(15px); /* Background blur (frosted glass effect) */
+    -webkit-backdrop-filter: blur(15px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+    z-index: 1;
+    box-sizing: border-box;
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 768px) {
+    .profile-container {
+        max-width: 90%; /* Reduce width on smaller screens */
+        padding: 20px;
+        top: 20%; /* Adjust positioning for mobile */
+        left: 5%; /* Center horizontally */
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* Slightly smaller shadow */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .profile-container {
+        max-width: 95%; /* Even smaller screens */
+        padding: 15px;
+        top: 25%; /* Adjust positioning */
+        left: 2.5%;
+        border-radius: 16px; /* Slightly smaller radius */
+    }
+}
+
+  
+  .profile-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 24px 24px 0 0;
+    height: 36%;
+    width: 100%;
+    background-image: linear-gradient(to right, #bc883d, #f5e47b, #bc883d);
+}
+  
+  .profile-picture {
+    position: relative;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color: #7070f9;
+    padding: 3px;
+  }
+  
+  .profile-picture .profile-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #faebd7;
+  }
+  
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-details .profile-name {
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  
+  .profile-details .profile-status {
+    margin: 5px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .social-icons {
+    
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 10px;
+  }
+  
+  .social-icons .social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #36a3fc;
+    color: #faebd7;
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+    margin: 0 7px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .action-buttons .action-button {
+    background-color: #0b6ebf;
+    padding: 12px;
+    margin: 0 18px;
+    color: white;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .action-buttons .action-button:hover {
+    background-color: #094a8f;
+  }
+  
+  .analytics {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .analytics .data {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .analytics .data i {
+    font-size: 24px;
+    color: #1a89de;
+  }
+  
+  .analytics .data .num {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+  

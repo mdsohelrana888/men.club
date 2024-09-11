@@ -200,7 +200,10 @@
         width: 134px;
     }
     .banner_main img {
-        height: 250px;
+        background-image: url("images/hero-section.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust the height as needed */
     }
     .text-bg {
         margin-top: -20px;
