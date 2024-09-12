@@ -28,10 +28,10 @@
 .golden-btn + .golden-btn { margin-top: 1em; }
 
 .golden-btn {
-  display: inline-block;
+  display: block;
   outline: none;
   font-family: inherit;
-  font-size: 1em;
+  font-size: 12px;
   box-sizing: border-box;
   border: none;
   border-radius: .3em;
@@ -39,6 +39,7 @@
   line-height: 2.5em;
   text-transform: uppercase;
   padding: 0 1em;
+  margin-top: -5px;
   box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(110,80,20,.4),
               inset 0 -2px 5px 1px rgba(139,66,8,1),
               inset 0 -1px 1px 3px rgba(250,227,133,1);
@@ -83,4 +84,16 @@
     flex-direction: column;
     gap: 10px;
     z-index: 100;
+}
+.social-popup-size{
+    width: 45px;
+
+}
+.menu-iocns {
+  background: #000000 !important;
+}
+.menu-logos{
+  width: 80px;
+  margin-top: -10px;
+  
 }
