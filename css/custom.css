@@ -5,6 +5,11 @@
     height: 100vh;
   
 }
+@media (max-width: 476px) {
+  .hero-bg{
+    height: 65vh;
+}
+}
 .hero-bg-contact{
   background-image: url("../images/casino.webp");
 
