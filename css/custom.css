@@ -1,12 +1,12 @@
 .hero-bg{
-    background-image: url("../images/men.club.png");
+    background-image: url("../images/men.club.webp");
     background-size: cover;
     background-position: center;
     height: 100vh;
   
 }
 .hero-bg-contact{
-  background-image: url("../images/casino.jpg");
+  background-image: url("../images/casino.webp");
 
     background-size: cover;
     background-position: center;
@@ -38,10 +38,10 @@
 .golden-btn + .golden-btn { margin-top: 1em; }
 
 .golden-btn {
-  display: block;
+
   outline: none;
   font-family: inherit;
-  font-size: 12px;
+  font-size: 14px;
   box-sizing: border-box;
   border: none;
   border-radius: .3em;
@@ -50,16 +50,17 @@
   text-transform: uppercase;
   padding: 0 1em;
   box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(110,80,20,.4),
-              inset 0 -2px 5px 1px rgba(139,66,8,1),
-              inset 0 -1px 1px 3px rgba(250,227,133,1);
+            inset 0 -2px 5px 1px rgba(139,66,8,1),
+            inset 0 -1px 1px 3px rgba(250,227,133,1);
   background-image: linear-gradient(160deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07);
   border: 1px solid #663903;
-  color: rgb(120,50,5);
+  color: rgb(110 47 6);
   text-shadow: 0 2px 2px rgba(250, 227, 133, 1);
   cursor: pointer;
   transition: all .2s ease-in-out;
   background-size: 100% 100%;
-  background-position:center;
+  background-position: center;
+  font-weight: 900;
 }
 .golden-btn:focus,
 .golden-btn:hover {
@@ -111,4 +112,28 @@
   .footer-copyrigh {
     justify-content: center;
 }
+}
+
+#content{
+  
+    
+    background-image: linear-gradient(to right, #bc883d, #f5e47b, #bc883d);
+   
+}
+.single-h1{
+  color: rgb(110 47 6);
+  font-weight: 00;
+  font-size:30px;
+
+}
+.single-h2{
+  color: rgb(70, 30, 3);
+  font-weight: 00;
+  font-size:20px;
+  margin:10px 0 ;
+}
+.casino-a>tr>td>a{
+  color: #ffffff !important;
+  font-weight: 800;
+
 }
