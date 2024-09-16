@@ -1131,32 +1131,29 @@ a.article:hover {
     transition: all 0.3s ease; /* Smooth transition */
 }
 
+@media (max-width:450px){
+    .profile-container-contact{
+        max-width: 95%;
+    }
+}
+
 /* Mobile Responsive */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 811px) {
     .profile-container {
         max-width: 90%; /* Reduce width on smaller screens */
         padding: 20px;
         top: 20%; /* Adjust positioning for mobile */
-        left: 5%; /* Center horizontally */
-        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* Slightly smaller shadow */
-    }
-}
-@media only screen and (max-width: 868px) {
-    .profile-container {
-        max-width: 30%; /* Reduce width on smaller screens */
-        padding: 20px;
-        top: 20%; /* Adjust positioning for mobile */
-         /* Center horizontally */
+        /* Center horizontally */
         box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* Slightly smaller shadow */
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 810px) {
     .profile-container {
         max-width: 95%; /* Even smaller screens */
         padding: 15px;
         top: 25%; /* Adjust positioning */
-        left: 2.5%;
+        left:2.5%;
         border-radius: 16px; /* Slightly smaller radius */
     }
 }
