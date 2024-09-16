@@ -7,8 +7,10 @@
 }
 
 .hero-bg-contact{
-background-color: #ff0000;
-background-image: url("../images/men.club.webp");
+  background-image: url("../images/casino.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
     
   

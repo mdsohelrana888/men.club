@@ -1106,7 +1106,10 @@ a.article:hover {
     box-sizing: border-box;
     transition: all 0.3s ease; /* Smooth transition */
 }
+
+
 .profile-container-contact {
+    top: 20%;
     position: relative;
    margin: auto;
     max-width: 359px;
