@@ -1138,7 +1138,7 @@ a.article:hover {
         box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* Slightly smaller shadow */
     }
 }
-@media only screen and (max-width: 1068px) {
+@media only screen and (max-width: 868px) {
     .profile-container {
         max-width: 90%; /* Reduce width on smaller screens */
         padding: 20px;
