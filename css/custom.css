@@ -5,33 +5,7 @@
     height: 100vh;
   
 }
-.hero-bg {
-  background-image: url("../images/men.club.webp");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-}
 
-@media only screen and (max-width: 768px) {
-  .hero-bg {
-      background-position: top;
-      height: 80vh;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .hero-bg {
-      background-position: top;
-      height: 60vh;
-  }
-}
-
-@media (max-width: 476px) {
-  .hero-bg{
-    background-image: url("../images/mbg-hero.webp");
-    height: 65vh;
-}
-}
 .hero-bg-contact{
   background-image: url("../images/casino.webp");
 
