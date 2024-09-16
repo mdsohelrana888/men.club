@@ -1087,7 +1087,7 @@ a.article:hover {
 .profile-container {
     position: relative;
     top: 31%;
-    left: 71%;
+    left: 70%;
     max-width: 279px;
     width: 100%;
     padding: 25px;
@@ -1141,12 +1141,12 @@ a.article:hover {
         box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* Slightly smaller shadow */
     }
 }
-@media only screen and (max-width: 1068px) {
+@media only screen and (max-width: 868px) {
     .profile-container {
-        max-width: 90%; /* Reduce width on smaller screens */
+        max-width: 30%; /* Reduce width on smaller screens */
         padding: 20px;
         top: 20%; /* Adjust positioning for mobile */
-        left: 5%; /* Center horizontally */
+         /* Center horizontally */
         box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* Slightly smaller shadow */
     }
 }

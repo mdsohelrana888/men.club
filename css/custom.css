@@ -7,12 +7,11 @@
 }
 
 /* Tablet responsiveness */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 968px) {
   .hero-bg {
-    background-size: cover;
- 
+      background-size: cover;
       background-position: top;
-      height: 80vh;
+
   }
 }
 
