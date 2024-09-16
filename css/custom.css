@@ -166,3 +166,30 @@
   padding-bottom:120px;
   background-image: linear-gradient(to right, #bc883d, #f5e47b, #bc883d);
 }
+.single-page{
+
+    background-image: url("../images/single-page.webp");
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0;
+    width: 100%;
+
+}
+
+/* single page table */
+tbody.casino-a {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+tbody.casino-a tr td {
+  margin-top: 10px;
+  background: #1b0905;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  width: 1% !important;
+  padding: 100px 100px;
+}
+tbody.casino-a tr{
+  margin-top: 10px;
+  
+}
