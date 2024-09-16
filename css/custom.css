@@ -10,7 +10,7 @@
   background-image: url("../images/casino.webp");
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    padding: 120px 0px;
 }
     
   
@@ -20,8 +20,7 @@
 
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    padding-top: 100px;
+    padding: 120px 0px;
   
 }
 
