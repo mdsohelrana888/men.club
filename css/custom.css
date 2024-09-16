@@ -7,11 +7,11 @@
 }
 
 .hero-bg-contact{
-  background-image: url("../images/casino.webp");
-
+background-color: #ff0000;
+}
     
   
-}
+
 .single-page{
   background-image: url("../images/single-page.webp");
 
