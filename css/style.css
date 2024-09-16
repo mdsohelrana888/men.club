@@ -281,7 +281,7 @@ button {
 .right_header_info {
     width: 100%;
     float: left;
-  
+
 }
 
 .right_header_info ul {
@@ -1138,7 +1138,7 @@ a.article:hover {
         box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* Slightly smaller shadow */
     }
 }
-@media only screen and (max-width: 968px) {
+@media only screen and (max-width: 1068px) {
     .profile-container {
         max-width: 90%; /* Reduce width on smaller screens */
         padding: 20px;

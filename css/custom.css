@@ -1,35 +1,29 @@
-.hero-bg {
-  background-image: url("../images/men.club.webp");
-  background-size: cover;
-  background-position: center;
-  padding: 154px 0;
-  width: 100%;
-}
-
-/* Tablet responsiveness */
-@media only screen and (max-width: 768px) {
-  .hero-bg {
+.hero-bg{
+    background-image: url("../images/men.club.webp");
     background-size: cover;
- 
-      background-position: top;
-      height: 80vh;
-  }
+    background-position: center;
+    height: 100vh;
+  
+}
+
+.hero-bg-contact{
+background-color: #ff0000;
+background-image: url("../images/men.club.webp");
+}
+    
+  
+
+.single-page{
+  background-image: url("../images/single-page.webp");
+
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-top: 100px;
+  
 }
 
 
-@media (max-width: 476px) {
-  .hero-bg{
-    background-image: url("../images/mbg-hero.webp");
-    height: 65vh;
-}
-}
-.hero-bg-contact {
-  background-image: url("../images/casino.webp");
-  background-size: cover;
-  background-position: center;
-  padding: 154px 0;
-  width: 100%;
-}
 /* hero section start here */
 .name-menclub{
    
@@ -133,9 +127,9 @@
 }
 
 #content{
-  
+  background-color: #1b0905 ;
     
-    background-image: linear-gradient(to right, #bc883d, #f5e47b, #bc883d);
+    
    
 }
 .single-h1{
@@ -154,4 +148,16 @@
   color: #ffffff !important;
   font-weight: 800;
 
+}
+.col-md-6.d-flex.justify-content-center.gap-3 {
+  gap: 8px;
+}
+
+.single-page-table{
+  border-radius: 10px;
+  max-width: 800px;
+  width: 100%; 
+  padding-top:120px;
+  padding-bottom:120px;
+  background-image: linear-gradient(to right, #bc883d, #f5e47b, #bc883d);
 }
