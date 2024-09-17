@@ -29,6 +29,13 @@
   padding: 154px 0;
   width: 100%;
 }
+.hero-bg-contact-single {
+  background-image: url("../images/single-page.webp");
+  background-size: cover;
+  background-position: center;
+  padding: 154px 0;
+  width: 100%;
+}
 /* hero section start here */
 .name-menclub{
    
