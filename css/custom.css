@@ -200,3 +200,24 @@ tbody.casino-a tr{
   margin-top: 10px;
   
 }
+.header {
+  top: 0;
+  background: transparent;
+  padding: 35px 0px;
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+}
+
+
+  
+.game-details {
+  display: none;
+
+  padding: 10px;
+  
+  border-radius: 8px;
+}
+.game-details.active {
+  display: block;
+}

@@ -1112,6 +1112,8 @@ a.article:hover {
     top: 21%;
     position: relative;
    margin: auto;
+ 
+   max-height: 60%;
     max-width: 359px;
     width: 100%;
     padding: 25px;
