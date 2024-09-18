@@ -1214,6 +1214,13 @@ a.article:hover {
     margin-top: 25px;
     gap: 10px;
   }
+  .social-icons-single {
+    
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    gap: 12px;
+  }
   
   .social-icons .social-icon {
     display: flex;
