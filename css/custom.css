@@ -221,3 +221,38 @@ tbody.casino-a tr{
 .game-details.active {
   display: block;
 }
+.sidebar-single-details {
+  width: 80%;
+  background-image: linear-gradient(to right, #bc883d, #f5e47b, #bc883d);
+  border-radius: 10px;
+  padding: 20px 7px;
+}
+.sidebar-single-details-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  
+    
+}
+.row.main-single-pages {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 870px) {
+  .row.main-single-pages {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 870px) {
+  .sidebar-main {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 470px) {
+  a.golden-btn{
+  font-size:12px !important;
+ }
+}
